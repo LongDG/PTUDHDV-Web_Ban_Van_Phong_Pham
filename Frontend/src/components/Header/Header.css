@@ -1,0 +1,73 @@
+.Header {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem 0;
+}
+
+.Header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Header-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.Header-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.Header-menu a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.Header-menu a:hover {
+  opacity: 0.8;
+}
+
+.Header-user {
+  color: white;
+  font-weight: 500;
+}
+
+.Header-auth {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.Header-auth:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.Header-logout {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.Header-logout:hover {
+  background: #c82333;
+  transform: translateY(-1px);
+}
+

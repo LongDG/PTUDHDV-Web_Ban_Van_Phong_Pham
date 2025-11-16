@@ -1,0 +1,24 @@
+.Home {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Home h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Home-api-test {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.Home-api-test pre {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
